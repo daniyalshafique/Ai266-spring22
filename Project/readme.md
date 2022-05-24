@@ -3,7 +3,11 @@
 ###### Because test data set has a explicit variable of a category because it wasn’t present in the training data set.
 ###### Applying Grid Search we have found that the best accuracy is (parameter = 10.0) and apply different parameters after several times we have got no change.
 
-
+The problem I faced the data was very big and 
+The model and code I tried to use took alot of time 
+to run the code.And I used many times to run the model but it doesn't run accurately
+And sometimes it was taking 5 to 6 hours to complete it.
+So that's why I committed the code here on GitHub.
 
 
 
