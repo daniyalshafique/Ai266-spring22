@@ -10,15 +10,20 @@ Original file is located at
 import pandas as pd
 import numpy as np
 
+#Reading CSV into a DataFrame
 train_td = pd.read_csv('/content/sample_data/test.csv');
 
 train_td
 
+#Remove unneeded columns
 rId = train_td[['id']];
 
+
+#Generate Random Number
 rId.insert(1,"target",0);
 
 rId['target'] = np.random.rand(700000,1);
 
+#Convert into CSV
 print(rId);
 rId.to_csv('out.csv',index=False);
