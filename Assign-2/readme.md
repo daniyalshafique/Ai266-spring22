@@ -1,4 +1,8 @@
-# Assign-2 By DANIYAL SHAFIQUE 61428 & ASSADULLAH
+# Assign-2 
+
+# Group Members
+- DANIYAL SHAFIQUE 61428 
+-  ASSADULLAH
 
 ## CODE
 
