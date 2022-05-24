@@ -26,10 +26,10 @@ print(test.shape)
 del trainDF['id']
 del trainDF['f_27']
 
-# del_test['id']
+## del_test['id']
 del test['f_27']
 
-# Separate Target & other Columns
+## Separate Target & other Columns
 X = trainDF.drop(columns=['target'])
 y = trainDF['target']
 
@@ -47,7 +47,7 @@ bnbAcc = metrics.accuracy_score(y_test, bnbTestingPred) #Check Accuracy Score
 print ("Naive Bayes Accuracy is: ", bnbAcc)
 
 
-# NAIVE BAYES 
+## NAIVE BAYES 
 nav_clf = BernoulliNB()
 nav_scores = cross_val_score(nav_clf, X_train, y_train, cv=6)
 print('Naive Bayes Scores is: ',nav_scores)
@@ -55,7 +55,7 @@ nav_mean = nav_scores.mean()
 print('Naive Bayes Mean Score is: ',nav_mean)
 
 
-# NAIVE BAYES (LAPLACE SMOOTHING) 
+## NAIVE BAYES (LAPLACE SMOOTHING) 
 
 from sklearn.naive_bayes import GaussianNB
 classifier = GaussianNB()
@@ -66,7 +66,7 @@ gnbAcc = metrics.accuracy_score(y_test, y_pred) # Check Accuracy Score
 print ("Naive Bayes Accuracy is: ", gnbAcc)
 
 
-# NAIVE BAYES  
+## NAIVE BAYES  
 nav_clf = GaussianNB()
 nav_scores = cross_val_score(nav_clf, X_train, y_train, cv=6)
 print('Naive Bayes Scores is: ',nav_scores)
@@ -102,14 +102,14 @@ daniyalCSV.to_csv('daniyalCSVTest.csv', index=False)
 
 
 
-PARAMETER TUNING
+## PARAMETER TUNING
 
 import numpy as np
 
 param_grid_nb = {
     'var_smoothing': np.logspace(0,-9, num=100)
 }
-# “https://medium.com/analytics-vidhya/how-to-improve-naive-bayes-9fa698e14cba”
+## “https://medium.com/analytics-vidhya/how-to-improve-naive-bayes-9fa698e14cba”
 
 from sklearn.model_selection import GridSearchCV
 
