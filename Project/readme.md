@@ -1,5 +1,5 @@
-# DANIYAL SHAFIQUE -61428 (Naive Bayes Model)
-# ASADULLAH (SVM MODEL)
+# DANIYAL SHAFIQUE -61428 (DANIYAL SHAFIQUE PERFORMED Naive Bayes Model)
+# ASADULLAH (ASADULLAH PERFORMED SVM MODEL)
 
 ###### The Naïve Bayes model assign zero probability and  it won’t be able to make any predictions.
 ###### Because test data set has a explicit variable of a category because it wasn’t present in the training data set.
@@ -159,6 +159,7 @@ bnbTesting.fit(X_train, y_train) #Training by fitting into model
 bnbTestingPred = bnbTesting.predict(X_test) #Prediction
 bnbAcc = metrics.accuracy_score(y_test, bnbTestingPred) #Checking Accuracy Score
 print ("Naive Bayes Accuracy is: ", bnbAcc)
+
 
 
 	
