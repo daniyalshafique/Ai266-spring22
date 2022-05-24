@@ -66,7 +66,7 @@ gnbAcc = metrics.accuracy_score(y_test, y_pred) # Check Accuracy Score
 print ("Naive Bayes Accuracy is: ", gnbAcc)
 
 
-# ======== NAIVE BAYES ======== 
+# NAIVE BAYES  
 nav_clf = GaussianNB()
 nav_scores = cross_val_score(nav_clf, X_train, y_train, cv=6)
 print('Naive Bayes Scores is: ',nav_scores)
