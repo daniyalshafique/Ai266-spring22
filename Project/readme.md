@@ -1,4 +1,5 @@
-# DANIYAL SHAFIQUE -61428
+# DANIYAL SHAFIQUE -61428 (Naive Bayes Model)
+# ASADULLAH (SVM MODEL)
 
 ###### The Naïve Bayes model assign zero probability and  it won’t be able to make any predictions.
 ###### Because test data set has a explicit variable of a category because it wasn’t present in the training data set.
