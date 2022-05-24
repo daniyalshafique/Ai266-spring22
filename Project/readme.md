@@ -5,6 +5,9 @@
 ###### Because test data set has a explicit variable of a category because it wasn’t present in the training data set.
 ###### Applying Grid Search we have found that the best accuracy is (parameter = 10.0) and apply different parameters after several times we have got no change.
 
+![projectkag](https://user-images.githubusercontent.com/43805740/170001794-36cc3856-b1a7-4924-8346-e47aac912282.PNG)
+
+
 The problem I faced the data was very big and 
 The model and code I tried to use took alot of time 
 to run the code.And I used many times to run the model but it doesn't run accurately
