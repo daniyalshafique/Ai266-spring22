@@ -1,8 +1,9 @@
 # Assign-2 
 
-# Group Members
+# Group Member
+  Asad Ullah khan - 61348
 - DANIYAL SHAFIQUE 61428 
--  ASSADULLAH
+-  
 
 ## CODE
 
