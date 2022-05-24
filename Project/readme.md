@@ -1,3 +1,20 @@
+## DANIYAL SHAFIQUE -61428
+###### The Naïve Bayes model assign zero probability and  it won’t be able to make any predictions.
+###### Because test data set has a explicit variable of a category because it wasn’t present in the training data set.
+###### Applying Grid Search we have found that the best accuracy is (parameter = 10.0) and apply different parameters after several times we have got no change.
+
+
+
+
+
+
+
+
+
+
+
+
+
 # PROJECT CODE
 
 import pandas as pd
